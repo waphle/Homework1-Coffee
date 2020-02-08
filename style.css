@@ -6,7 +6,7 @@ html {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 100%;
+  height: 200%;
   width: 1200px;
   border-style: solid;
   padding: 10px;
@@ -71,4 +71,23 @@ ul#subheader_bar li {
   display: block;
   top: 375;
   left: 325;
+}
+
+.block p {
+  top: 375;
+  left: 325;
+  padding: 5;
+  margin: auto;
+  width: 600px;
+  height: auto;
+  background-color: red;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 15;
+
+}
+
+footer {
+
+
 }
