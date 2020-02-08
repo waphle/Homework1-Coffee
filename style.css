@@ -61,6 +61,8 @@ ul#subheader_bar li {
 }
 
 .block {
+  display: block;
+  align-items: center;
   padding: 10px;
   text-align: center;
   margin: 20px;
@@ -70,15 +72,14 @@ ul#subheader_bar li {
 .block img {
   display: block;
   top: 375;
-  left: 325;
+  left: 300;
+  right: 300;
 }
 
 .block p {
-  top: 375;
-  left: 325;
   padding: 5;
   margin: auto;
-  width: 600px;
+  width: 575px;
   height: auto;
   background-color: red;
   color: white;
