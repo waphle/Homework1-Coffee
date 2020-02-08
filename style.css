@@ -1,0 +1,29 @@
+html {
+  background: #E5DDDD;
+}
+
+h1 {
+  color: green;
+  font-family: "Dancing Script OT";
+  font-size: 50;
+}
+
+#subheader_bar {
+    background-color: red;
+    display:inline;
+}
+#subheader_bar li{
+    display: inline;
+}
+
+ul {
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20;
+}
+
+li {
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20;
+}
