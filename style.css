@@ -59,3 +59,16 @@ ul#subheader_bar li {
   font-family: "Josefin Sans";
   font-size: 20;
 }
+
+.block {
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+
+}
+
+.block img {
+  display: block;
+  top: 375;
+  left: 325;
+}
