@@ -95,6 +95,7 @@ ul#subheader_bar li {
   top: 375;
   left: 300;
   right: 300;
+  width: 50%;
 }
 
 .block p {
