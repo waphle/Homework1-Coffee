@@ -70,7 +70,7 @@ html {
   margin: 20px;
 }
 
-#mainBlockImg { /*Main Image in the Block*/ 
+#mainBlockImg { /*Main Image in the Block*/
   display: inline-block;
   padding: 10px;
   top: 375;
@@ -79,11 +79,34 @@ html {
   width: 50%;
 }
 
-.block p { /*Text box underneath the mainBlockImg*/
-  padding: 5;
+.divs {
+  padding: 5px
+}
+
+#infoBox {
+  display: flex;
+}
+
+#location {
+  flex: 1;
+}
+
+#hours {
+  flex: 1;
+}
+
+#email {
+  flex: 1;
+}
+
+.block p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12;
   margin: auto;
-  width: 575px;
-  height: auto;
+  width: auto;
+  height: 62.5px;
   background-color: red;
   color: white;
   font-family: "Josefin Sans";
