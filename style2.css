@@ -22,19 +22,19 @@ html {
 #headerImg { /* Header image */
   position: absolute;
   top: 100px;
-  left: 55px;
+  left: 120px;
 }
 
 #facebook img{
   position: absolute;
   top: 150px;
-  right: 200px;
+  right: 250px;
 }
 
 #twitter img{
   position: absolute;
   top: 150px;
-  right: 140px;
+  right: 190px;
 }
 
 .subheader_bar { /* Subheader bar styles, the 'NavBar' */
@@ -70,7 +70,7 @@ html {
   margin: 20px;
 }
 
-#mainBlockImg { /*Main Image in the Block*/ 
+#mainBlockImg { /*Main Image in the Block*/
   display: inline-block;
   padding: 0px;
   top: 375;
@@ -79,8 +79,31 @@ html {
   width: 50%;
 }
 
-.block p { /*Text box underneath the mainBlockImg*/
-  padding: 5;
+.divs {
+  padding: 5px
+}
+
+#infoBox {
+  display: flex;
+}
+
+#location {
+  flex: 1;
+}
+
+#hours {
+  flex: 1;
+}
+
+#email {
+  flex: 1;
+}
+
+.block p { /*FlexBox styling*/ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12;
   margin: auto;
   width: 561px;
   height: auto;
