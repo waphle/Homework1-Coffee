@@ -41,7 +41,7 @@ html {
   display: inline;
   margin: auto;
   padding: 10 px;
-  background-color: red;
+  background-color: #e96133;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ html {
 
 #mainBlockImg { /*Main Image in the Block*/ 
   display: inline-block;
-  padding: 10px;
+  padding: 0px;
   top: 375;
   left: 300;
   right: 300;
@@ -82,10 +82,10 @@ html {
 .block p { /*Text box underneath the mainBlockImg*/
   padding: 5;
   margin: auto;
-  width: 575px;
+  width: 561px;
   height: auto;
-  background-color: red;
+  background-color: #e96133;
   color: white;
   font-family: "Josefin Sans";
-  font-size: 15;
+  font-size: 12;
 }
