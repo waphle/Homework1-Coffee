@@ -2,6 +2,26 @@ html {
   background: #f2f2f2;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#facebook img{
+  position: absolute;
+  top: 150px;
+  right: 55px;
+}
+
+#twitter img{
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+
 #container {
   margin-top: 20px;
   margin-left: 20px;
@@ -24,7 +44,7 @@ html {
   font-size: 35pt;
 }
 
-img {
+head img {
   position: absolute;
   top: 100px;
   left: 55px;
@@ -46,6 +66,7 @@ ul#subheader_bar {
 
 ul#subheader_bar li {
 	display: inline;
+  float: inherit;
 }
 
 #subheader_bar ul {
@@ -85,8 +106,12 @@ ul#subheader_bar li {
   color: white;
   font-family: "Josefin Sans";
   font-size: 15;
-
 }
+
+/* section {
+
+
+} */
 
 /* footer {
 
