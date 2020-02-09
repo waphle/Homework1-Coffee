@@ -1,0 +1,50 @@
+html {
+  background: #f2f2f2;
+}
+
+#container {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 200%;
+  width: 1200px;
+  border-style: solid;
+  padding: 10px;
+}
+
+#header {
+  color: green;
+  font-family: "Dancing Script OT";
+  font-size: 35pt;
+}
+
+#headerImg {
+  position: absolute;
+  top: 100px;
+  left: 55px;
+}
+
+.subheader_bar {
+  display: inline;
+  margin: auto;
+  padding: 10 px;
+  background-color: red;
+  text-align: center;
+}
+
+#subheader_bar ul {
+  min-width: 700px;
+  list-style: none;
+  padding-top: 20px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20;
+}
+
+#subheader_bar li {
+  display: inline;
+  float: inherit;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20;
+}
