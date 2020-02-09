@@ -22,19 +22,19 @@ html {
 #headerImg { /* Header image */
   position: absolute;
   top: 100px;
-  left: 55px;
+  left: 120px;
 }
 
 #facebook img{
   position: absolute;
   top: 150px;
-  right: 200px;
+  right: 250px;
 }
 
 #twitter img{
   position: absolute;
   top: 150px;
-  right: 140px;
+  right: 190px;
 }
 
 .subheader_bar { /* Subheader bar styles, the 'NavBar' */
@@ -99,7 +99,7 @@ html {
   flex: 1;
 }
 
-.block p {
+.block p { /*FlexBox styling*/ 
   display: flex;
   justify-content: center;
   align-items: center;
