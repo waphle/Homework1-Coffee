@@ -37,41 +37,29 @@ html {
   right: 190px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: red;
-  overflow: hidden;
+.subheader_bar { /* Subheader bar styles, the 'NavBar' */
+  display: inline;
+  margin: auto;
+  padding: 10 px;
+  background-color: #e96133;
+  text-align: center;
 }
 
-/* Style the links inside the navigation bar */
-.nav_bar a {
-  float: inherit;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+#subheader_bar ul {
+  min-width: 700px;
+  list-style: none;
+  padding-top: 20px;
   color: white;
   font-family: "Josefin Sans";
   font-size: 20;
 }
 
-/* Change the color of links on hover */
-.nav_bar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.nav_bar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.nav_bar { /* Subheader bar styles, the 'NavBar' */
+#subheader_bar li {
   display: inline;
-  margin: auto;
-  padding: 10 px;
-  background-color: red;
-  text-align: center;
+  float: inherit;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 20;
 }
 
 .block {
@@ -115,10 +103,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12;
+  padding: 20;
   margin: auto;
   width: auto;
-  height: 62.5px;
+  height: 50;
   background-color: red;
   color: white;
   font-family: "Josefin Sans";

@@ -12,7 +12,7 @@ html {
   padding: 10px;
 }
 
-#header { /* Header text */
+#headerText { /* Header text */
   color: green;
   font-family: "Dancing Script OT";
   font-size: 35pt;
@@ -72,7 +72,7 @@ html {
 
 #mainBlockImg { /*Main Image in the Block*/
   display: inline-block;
-  padding: 0px;
+  padding: 10px;
   top: 375;
   left: 300;
   right: 300;
@@ -99,16 +99,16 @@ html {
   flex: 1;
 }
 
-.block p { /*FlexBox styling*/ 
+.block p { /*FlexBox styling*/
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12;
+  padding: 20;
   margin: auto;
-  width: 561px;
-  height: auto;
-  background-color: #e96133;
+  width: auto;
+  height: 50;
+  background-color: red;
   color: white;
   font-family: "Josefin Sans";
-  font-size: 12;
+  font-size: 15;
 }
