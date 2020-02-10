@@ -41,7 +41,8 @@ html {
 .subheader_bar {
   background-color: red;
   overflow: hidden;
-  width: auto;
+  width: 650px;
+  margin: 0 auto;
   background-color: red;
   text-align: center;
 }
