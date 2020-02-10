@@ -1,12 +1,12 @@
 html {
-  background: #f2f2f2;
+  background: #F1DCD8;
 }
 
-#container {
+#containerMain {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 200%;
+  height: 150%;
   width: 1200px;
   border-style: solid;
   padding: 10px;
@@ -114,7 +114,7 @@ html {
   float: right;
   padding: 5px;
   width: 950px;
-  background-color: #f2f2f2;
+  background-color: #F1DCD8;
 }
 
 /* Style the input element and the submit button */
@@ -154,14 +154,20 @@ html {
   background: #F1DCD8;
 }
 
-#container {
+#containerAbout {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 100%;
+  height: 110%;
   width: 1200px;
   border-style: solid;
   padding: 10px;
+}
+
+#headerBanner {
+  position: absolute;
+  top: 5px;
+  left: 390px;
 }
 
 #ownerImg {
@@ -177,6 +183,12 @@ html {
 #infoHeader {
   font-size: 15pt;
   font-family: "Cera PROModern";
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #infoText {
