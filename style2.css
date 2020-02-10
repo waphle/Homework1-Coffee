@@ -154,11 +154,11 @@ html {
   padding: 10px;
   margin: auto;
   width: auto;
-  height: 50px;
+  height: 55px;
   background-color: red;
   color: white;
   font-family: "Josefin Sans";
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 .newsletter {
