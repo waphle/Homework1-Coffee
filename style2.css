@@ -48,7 +48,6 @@ html {
 
 /* Style the links inside the navigation bar */
 .subheader_bar a {
-  display: inline;
   color: #f2f2f2;
   padding: 14px 16px;
   font-size: 15px;
