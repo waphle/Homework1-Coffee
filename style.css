@@ -201,7 +201,7 @@ input[type=submit]:hover {
 
 #validationCSScoffee {
   position: absolute;
-  bottom: -440px;
+  bottom: -225px;
   left: 600px;
 }
 
@@ -267,6 +267,6 @@ html {
 
 #validationCSSstyle {
   position: absolute;
-  bottom: -170px;
+  bottom: 30px;
   left: 600px;
 }
