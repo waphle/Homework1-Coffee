@@ -199,7 +199,11 @@ input[type=submit]:hover {
   font-size: 15pt;
 }
 
-
+#validationCSScoffee {
+  position: absolute;
+  bottom: -440px;
+  left: 600px;
+}
 
 /*CSS stuff for aboutus.hmtl below! */
 html {
@@ -210,7 +214,7 @@ html {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 850px;
+  height: 900px;
   width: 1200px;
   border-style: solid;
   padding: 10px;
@@ -259,4 +263,10 @@ html {
   position: absolute;
   top: 100px;
   left: 100px;
+}
+
+#validationCSSstyle {
+  position: absolute;
+  bottom: -170px;
+  left: 600px;
 }
