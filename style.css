@@ -200,10 +200,10 @@ input[type=submit]:hover {
 }
 
 #validationCSScoffee {
-  display:inline-block;
-  position: absolute;
-  bottom: -400px;
-  left: 600px;
+  display: inline-block;
+  position: relative;
+  bottom: -130px;
+  left: 570px;
 }
 
 /*CSS stuff for aboutus.hmtl below! */
@@ -268,7 +268,7 @@ html {
 
 #validationCSSstyle {
   display: inline-block;
-  position: absolute;
-  bottom: -160px;
-  left: 600px;
+  position: relative;
+  bottom: -30px;
+  left: 550px;
 }
