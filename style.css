@@ -121,7 +121,7 @@ html {
 #mainBlockImg {
   display: inline-block;
   padding: 10px;
-  top: 375;
+  top: 375px;
   left: 250px;
   right: 250px;
 }
@@ -180,7 +180,7 @@ input[type=text], input[type=submit] {
 
 /* Stylize the submit button */
 input[type=submit] {
-  padding: 10;
+  padding: 10px;
   float: inherit;
   background-color: green;
   width: auto;
@@ -248,10 +248,9 @@ html {
   background: #1abc9c;
   width: 1000px;
   height: auto;
-  border: auto;
   margin: auto;
   padding: 10px;
-  font-style: 10pt;
+  font-size: 12pt;
   font-family: "Josefin Sans";
   text-align: center;
 }
