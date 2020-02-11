@@ -167,7 +167,6 @@ html {
   background-color: #F1DCD8;
 }
 
-/* Style the input element and the submit button */
 input[type=text], input[type=submit] {
   float: inherit;
   width: 50%;
@@ -178,7 +177,6 @@ input[type=text], input[type=submit] {
   box-sizing: border-box;
 }
 
-/* Stylize the submit button */
 input[type=submit] {
   padding: 10px;
   float: inherit;
