@@ -1,72 +1,83 @@
-  <html>
+<html>
 
-    <head>
-        <title>
-            Coffee House Website
-        </title>
-        <img src="SkeletonFiles/Sunflower.png" alt="Sunflower" width = "150" height = "100">
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-    </head>
+  <head>
+      <title>
+          Sun Flower Coffee Shop
+      </title>
 
-    <!-- Social Media Icon Library -->
-    <div class="socialMedia">
-      <div id="facebook">
-        <img src="SkeletonFiles/Facebook.png" alt="Facebook" width = "50" height = "50">
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <div id="containerMain">
+      <div class="header">
+        <h1 id="headerText" align="center">Sun Flower Coffee Shop</h1>
+        <img id="headerImg" src="SkeletonFiles/Sunflower.png" alt="Sunflower" width = "150"; height = "100">
+
+        <div class="subheader_bar"> <!-- The NavBar -->
+          <a href="#shop" class="subheader_bar">Our Shop</a></li>
+          <a href="#press" class="subheader_bar">Press</a></li>
+          <a href="aboutus.html" class="subheader_bar">About us</a></li>
+          <a href="#contact" class="subheader_bar">Contact</a></li>
+
+          <div class="dropdown">
+            <button class="dropbutton">Our Coffee
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">The Frappa: A frappuccino mixed with a three herb blend!</a>
+              <a href="#">Kalt Chai: A chai with authentic Icelandic spices!</a>
+              <a href="#">Energizer: A fourty coffee blend that will boost your entire week!</a>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <div id="twitter">
-        <img src="SkeletonFiles/twitter.png" alt="Twitter" width = "50" height = "50">
+
+      <div class="block">
+        <img id ="mainBlockImg" src="SkeletonFiles/home-02.jpg" alt="MainImage" width="1000px"; height="650px"; class="center">
+
+        <div id="infoBox">
+          <div class="divs" id="location">
+            <p>1200 17th St NW #150, Washington, DC 20036 /<a href="https://goo.gl/maps/kUx87M8Ly1bSUAaD8">Map</a></p>
+          </div>
+
+          <div class="divs" id="hours">
+            <p>Open 7am - 8pm Daily</p>
+          </div>
+
+          <div class="divs" id="email">
+            <p>Email: <a href="mailto:hello@sunflowercoffee.com">hello@sunflowercoffee.com</a>
+          </div>
+        </div>
+
+        <form action="https://helpdeskgeek.com/wp-content/pictures/2019/09/5-YouTube-Channels-Every-Serious-Tech-Fan-Should-Subscribe-To-Title-Image.jpg.optimal.jpg">
+          <div class="newsletter">
+            <h2 id="newsletterTitle" align:"center"> Subscribe to our Newsletter!</h2>
+          </div>
+
+          <div class="newsletter">
+            <input type="text" placeholder="Email address" name="mail" required>
+          </div>
+
+          <div class="newsletter">
+            <input type="submit" value="Subscribe">
+          </div>
+        </form>
+      </div>
+
+      <div class="socialMedia">
+        <div id="facebook">
+          <a href="https://www.facebook.com/TheCoffeeBarDC/">
+            <img src="SkeletonFiles/facebook.png" alt="Facebook" width = "50"; height = "50">
+        </div>
+
+        <div id="twitter">
+          <a href="https://twitter.com/thecoffeebardc">
+            <img src="SkeletonFiles/twitter.png" alt="Twitter" width = "50"; height = "50">
+          </div>
       </div>
     </div>
+  </body>
 
-    <body>
-        <div id="container">
-            <div id="header">
-                <h1 align="center">Sun Flower Coffee Shop</h1>
-            </div>
-            <a href="/">
-            </a>
-            <div class="subheader_bar">
-                <ul id="subheader_bar">
-                    <li><a href="#home" class="subheader_bar">About us</a></li>
-                    <li><a href="#our-coffee" class="subheader_bar">Our Coffee</a></li>
-                    <li><a href="#shop" class="subheader_bar">Our Shop</a></li>
-                    <li><a href="#press" class="subheader_bar">Press</a></li>
-                    <li><a href="#contact" class="subheader_bar">Contact</a></li>
-                </ul>
-            </div>
 
-            <div class="block">
-              <div>
-                <div>
-                  <img class = "block" src="SkeletonFiles/home-02.jpg" alt="MainImage" width = "600px" height = "450px" class = "center">
-                  <div>
-                    <p>1201 S Street, NW Washington, DC /<a href="https://goo.gl/maps/BwEhUAbFY2Df5UUV9">Map</a>
-                    </p>
-                  </div>
-                <div>
-                    <p>Open 7am - 8pm Daily</p>
-                </div>
-                  <div >
-                    <p>Email: <a href="mailto:hello@sunflowercoffee.com">hello@sunflowercoffee.com</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          <section>
-            <p>Subscribe to our newsletter!<p>
-            <form action="Final.html" method="post" class="subscribe-form">
-            </form>
-          </section>
-
-<br>
-          <footer>
-            @2014 Sunflower Coffee. All rights reserved
-          </footer>
-
-      </div>
-    </body>
-
-</html>
+  </html>
