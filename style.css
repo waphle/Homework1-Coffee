@@ -200,8 +200,9 @@ input[type=submit]:hover {
 }
 
 #validationCSScoffee {
+  display:inline-block;
   position: absolute;
-  bottom: -225px;
+  bottom: -400px;
   left: 600px;
 }
 
@@ -266,7 +267,8 @@ html {
 }
 
 #validationCSSstyle {
+  display: inline-block;
   position: absolute;
-  bottom: 30px;
+  bottom: -160px;
   left: 600px;
 }
