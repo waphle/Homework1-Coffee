@@ -1,12 +1,11 @@
+/*Coffee.html CSS stuff*/
 html {
   background: #F1DCD8;
 }
 
 #containerMain {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 150%;
+  margin: 20px;
+  height: 1150px;
   width: 1200px;
   border-style: solid;
   padding: 10px;
@@ -200,7 +199,9 @@ input[type=submit]:hover {
   font-size: 15pt;
 }
 
-/* About Us HTML page css stuff below! */
+
+
+/*CSS stuff for aboutus.hmtl below! */
 html {
   background: #F1DCD8;
 }
@@ -209,7 +210,7 @@ html {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 150%;
+  height: 850px;
   width: 1200px;
   border-style: solid;
   padding: 10px;
