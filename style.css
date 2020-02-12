@@ -3,6 +3,16 @@ html {
   background: #F1DCD8;
 }
 
+@font-face {
+  font-family: 'Dancing Script OT';
+  src: url('Fonts/dancing-script-ot/DancingScript-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('Fonts/josefin-sans/JosefinSans-Regular');
+}
+
 #containerMain {
   margin: 20px;
   height: 1150px;
